@@ -9,6 +9,10 @@ int main(){
         return 1;
     }
 
+    fprintf(fp, "Hello! World");
+
+    fclose(fp);
+
 
     return 0;
 }
